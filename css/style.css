@@ -1,0 +1,56 @@
+        .mynav {
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .navbar {
+            background-color: #19caaf;
+        }
+        
+        .navbar .navbar-brand {
+            color: rgb(137, 7, 7)!important;
+            font-size: 26px;
+            font-family: fantasy;
+            background-color: transparent;
+        }
+        
+        .navbar-brand:hover {
+            color: rgb(247, 7, 7)!important;
+        }
+        
+        .dropdown-item {
+            transition: all 0.3s;
+        }
+        
+        .nav-link {
+            transition: all 0.3s;
+        }
+        
+        .navbar .navbar-nav {
+            margin: 0 auto;
+            font-size: 26px;
+            font-family: cursive;
+            font-weight: bold;
+        }
+        
+        .navbar .nav-item a {
+            color: white!important;
+        }
+        
+        .nav-item a:hover {
+            color: rgb(247, 7, 7)!important;
+            background-color: rgba(0, 0, 0, 0.1);
+        }
+        
+        .navbar .dropdown-menu {
+            font-size: 0.9em;
+            background-color: #19caaf;
+        }
+        
+        .navbar .dropdown-menu:hover {
+            transition: linear;
+        }
+        
+        @media (min-width: 768px) .col-md-12 {
+            text-align: center;
+        }
